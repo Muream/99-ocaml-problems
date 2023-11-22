@@ -46,3 +46,10 @@
  (inline_tests)
  (preprocess
   (pps ppx_inline_test)))
+
+(library
+ (name p08)
+ (modules p08)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
