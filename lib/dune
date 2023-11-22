@@ -1,0 +1,48 @@
+(library
+ (name p01)
+ (modules p01)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p02)
+ (modules p02)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p03)
+ (modules p03)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p04)
+ (modules p04)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p05)
+ (modules p05)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p06)
+ (modules p06)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
+
+(library
+ (name p07)
+ (modules p07)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
